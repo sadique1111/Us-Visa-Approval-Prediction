@@ -41,7 +41,7 @@ list_of_files = [
  "setup.py"
 ]
 
-# function to create the list of files mentioned above.
+# function to create the list of files and folder mentioned above.
 
 for filepath in list_of_files:
     filepath = Path(filepath)
