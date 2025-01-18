@@ -2,19 +2,23 @@
 
 # git command
 ```
+To kanow the git version
+
+        git --version
+
 initialize git command for the local folder
 
         git init
 
+configure the git
+
+        git config --global user.name "<yur name>"
+
+        git config --global user.email "<your email>"
+
 clone the folder from central repository
 
         git clone <url of the central repository>
-
-configure the git
-
-        git congif --global user-name "<yur name>"
-
-        git config --global user-email "<your email>"
 
 command to check the status of the git
 
