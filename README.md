@@ -105,3 +105,7 @@ delete the conda environment
 ```
         pip install -r requirements.txt
 ```
+# mongoDB connection string:
+```
+mongodb+srv://sadique1111:sadique1111@cluster0.x6ye9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+```
