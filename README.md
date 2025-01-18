@@ -1,6 +1,7 @@
 # Us-Visa-Approval-Prediction
 
-''''
+# git command
+```
 initialize git command for the local folder
 
         git init
@@ -53,4 +54,50 @@ how to restore the file form staging area
 
         git restore <file name>
 
-''''
+```
+
+# conda environment
+```
+how to create new conda environment
+
+        conda create -n <env_name> python=3.8 -y
+        conda create --name <env_name> python=3.8 -y
+
+Activate the conda environment 
+
+        conda activate <enviroment_name>
+
+Deactivate the active conda environment
+
+        conda deactivate
+
+List all the package installed under particular conda environment
+
+        pip list
+
+To list all the package installed in anaconda including all conda environment
+
+        conda list
+
+to know all the list of conda environment. the one with * is the active environment
+
+        conda env list
+
+how to know the present conda environment
+
+        echo $CONDA_DEFAULT_ENV
+
+delete the conda environment
+
+    -all = removes all the package installed under the conda environment
+
+        conda remove --name <ENV_NAME> --all
+        conda env remove -n <ENV_NAME>
+
+```
+
+# install all the package along with local package (folder) with setup.py file written in requirements.txt file
+
+```
+        pip install -r requirements.txt
+```
